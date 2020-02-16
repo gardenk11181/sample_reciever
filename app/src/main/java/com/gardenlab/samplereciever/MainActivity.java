@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements AutoPermissionsLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AutoPermissions.Companion.loadAllPermissions(this,101);
+        AutoPermissions.Companion.loadAllPermissions(this, 101);
     }
 
     @Override
